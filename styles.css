@@ -11,18 +11,7 @@ body {
 	overflow:hidden;
 	text-align: left;
 }
-@media (max-width:1024px )
-{
-	#title
-	{
-		text-align: center;
-	}
-	.title-image
-	{	
-		position: static;
-		transform: rotate(0);
-	}
-}
+
 .navbar
 {
 	padding-bottom:0px 0px 4.5rem 0px;
@@ -75,6 +64,19 @@ p
 	position: absolute;
 	right:30%;
 }
+@media (max-width:1024px )
+{
+	#title
+	{
+		text-align: center;
+	}
+	.title-image
+	{	
+		position: static;
+		transform: rotate(0);
+	}
+}
+
 /*feature*/
 #features
 {
